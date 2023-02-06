@@ -1,0 +1,10 @@
+columns:
+    judul:
+        label: Judul
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: Tanggal
+        type: datetime
+        searchable: true

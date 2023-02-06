@@ -1,0 +1,10 @@
+name: Berita
+form: $/zayn/genetics/models/info/fields.yaml
+modelClass: Zayn\Genetics\Models\Info
+defaultRedirect: zayn/genetics/berita
+create:
+    redirect: 'zayn/genetics/berita/update/:id'
+    redirectClose: zayn/genetics/berita
+update:
+    redirect: zayn/genetics/berita
+    redirectClose: zayn/genetics/berita

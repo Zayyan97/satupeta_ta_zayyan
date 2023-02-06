@@ -1,0 +1,12 @@
+list: $/zayn/genetics/models/info/columns.yaml
+modelClass: Zayn\Genetics\Models\Info
+title: Berita
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'zayn/genetics/berita/update/:id'

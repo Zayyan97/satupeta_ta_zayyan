@@ -1,0 +1,11 @@
+plugin:
+    name: 'zayn.genetics::lang.plugin.name'
+    description: 'zayn.genetics::lang.plugin.description'
+    author: zayn
+    icon: oc-icon-gears
+    homepage: ''
+navigation:
+    genetics-berita:
+        label: Berita
+        url: zayn/genetics/berita
+        icon: icon-info
